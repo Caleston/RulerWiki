@@ -1,4 +1,4 @@
-# RulerHelper
+# RulerWiki
 
 A discord bot for RulerCraft which tracks the server and shows many stats, allowing you to interact with the server from your discord
 
@@ -13,7 +13,7 @@ A discord bot for RulerCraft which tracks the server and shows many stats, allow
 
 ## Commands
 
-Too many to list here [try the bot](https://rctools.coolo2.repl.co/bot) to see
+Too many to list here try the bot to see
 
 # Installing and running
 
