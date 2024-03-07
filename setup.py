@@ -25,8 +25,8 @@ request_channel = 985590035556479017 # Channel ID to send /request stuff
 mods = [368071242189897728] # List of User IDs who are "bot moderators". They can accept requests. First member of this list should be bot owner
 
 DEFAULT_TOWNS = ["RulerSpawn", "Sea", "Unclaimed"] # Ignore these towns in certain commands. Will still be tracked and can still be seen with /get
-DEFAULT_TOWNS_SUBSTRING = ["Quarry", "Trading"]
-DONT_TRACK_TOWNS = ["Sea", "RulerSpawn", "Unclaimed"] # Ignore these towns while tracking.
+DEFAULT_TOWNS_SUBSTRING = ["Quarry", "Treasure"]
+DONT_TRACK_TOWNS = ["Sea", "RulerSpawn", "Unclaimed", "EW"] # Ignore these towns while tracking.
 
 today_tracking_period = datetime.timedelta(minutes=30)
 production_today_tracking_minutes = [0, 30]
@@ -264,4 +264,4 @@ Residents:</span> (.*)<br /></p> <p><span style="font-size:90%;font-weight:600">
 ⏳ Founded:</span> (.*)<br /></p> <p><span style="font-size:90%;font-weight:600">
 % Resident Tax:</span> (.*)<br /></p> <p><span style="font-size:90%"><span style="font-weight:600">
 &#x1f4b0; Bank:</span> (.*) Dollars</span></p> <p><span style="font-size:90%"><span style="font-weight:600">
-&#x1f6a5; Public:</span> (.*)</span></p> </div></div>""".replace("\n", "")
+&#x1f6a5; Public Teleport:</span> (.*)</span></p> </div></div>""".replace("\n", "")
